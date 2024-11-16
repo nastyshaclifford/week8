@@ -1,0 +1,147 @@
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.nav__logo {
+    margin-right: 15px;
+}
+
+.nav_title {
+    font-family: 'Intro', sans-serif;
+    font-weight:700;
+    font-size: 35px; 
+    line-height: 35px;
+}
+
+.nav__cart-button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 115px;
+    height: 38px;
+    padding: 10px 20px; 
+    background-color: #5222D0;
+    border-radius: 100px; 
+    border: none;
+    color: white; 
+    font-family: 'Intro', sans-serif;
+    font-weight:700;
+    font-size: 13px; 
+    line-height: 13px;
+    cursor: pointer; 
+    gap: 5px;
+    margin-left: auto; 
+    margin-right: 50px;
+    margin-top: -5px;
+}
+
+.nav__cart-button:hover {
+    background-color: #0056b3; 
+}
+
+.nav__cart-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: 150px;
+    margin-top: -70px;
+}
+
+.main_content {
+    max-width: 40%;
+}
+
+.main__title {
+    font-family: 'Intro', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.main__p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 270px;
+    height: 84px;
+    padding: 10px 20px; 
+    background-color: #5222D0;
+    border-radius: 100px; 
+    border: none;
+    color: white; 
+    font-family: 'Intro', sans-serif;
+    font-weight:700;
+    font-size: 35px; 
+    line-height: 35px;
+    cursor: pointer; 
+    gap: 16px; 
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.button__icon {
+    width: 41.72px;
+    height: 28.74px;
+}
+
+.main__image {
+    width: 60%; 
+    object-fit: cover; 
+    margin-top: 60px;
+}
+
+.footer {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+    text-align: left; 
+    color: #5222D0;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+.footer__section {
+    max-width: 800px;
+    padding-left: 20px; 
+    margin-left: 0; 
+    padding-left: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.footer__list {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    gap: 35px;
+}
+
+.footer__link {
+    text-decoration: none; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.footer__section,
+.footer__list,
+.footer__link {
+    text-align: left; 
+}
